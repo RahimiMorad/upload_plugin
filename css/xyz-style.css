@@ -1,0 +1,31 @@
+.progress {
+    display: none;
+    position: relative;
+    margin: 20px;
+    width: 400px;
+    background-color: #ddd;
+    border: 1px solid blue;
+    padding: 1px;
+    left: 15px;
+    border-radius: 3px;
+}
+
+.progress-bar {
+    background-color: green;
+    width: 0%;
+    height: 30px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.percent {
+    position: absolute;
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    top: 0;
+    left: 50%;
+    margin-left: -20px;
+    -webkit-border-radius: 4px;
+}
